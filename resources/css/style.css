@@ -400,7 +400,7 @@ footer {
   padding-left: 1rem;
 }
 /* media query for mobile */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
   .legal {
     display: none;
   }
