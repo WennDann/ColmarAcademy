@@ -63,7 +63,7 @@
         </a>
         <!-- desktop class for navigation -->
         <nav class="desktop">
-          <ul>
+          <ul role="presentation">
             <li><a href="./index.html">On campus</a></li>
             <li><a href="./index.html">Online</a></li>
             <li><a href="./index.html">For companies</a></li>
@@ -72,8 +72,13 @@
         </nav>
         <!-- mobile class for navigation -->
         <nav class="mobile">
-          <ul>
-            <li><a href="./index.html"><?xml version="1.0" standalone="no"?>
+          <ul role="presentation">
+            <li><a href="./index.html">
+                <!-- Is there a way using the "fill" attribute on SVGs without
+                having to add the whole code of the SVG itself into the html
+                code? All the examples I have found showed it this way, but it
+                makes the html code harder to read. Thanks for your feedback
+                on that. --><?xml version="1.0" standalone="no"?>
                 <!DOCTYPE svg PUBLIC"-//W3C//DTD SVG 20010904//EN"
                 "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -265,7 +270,8 @@
       <div class="flexrow">
         <div class="primary_container flexcolumn">
           <div class="image_container">
-            <img src="./resources/images/banner.jpg" alt="Banner image">
+            <img src="./resources/images/banner.jpg" alt="three students
+            sitting at a wooden bench reading books">
           </div>
         </div>
         <div class="secondary_container flexcolumn">
@@ -284,7 +290,8 @@
       <div class="flexrow">
         <div class="primary_container flexcolumn">
           <div class="image_container">
-            <img src="./resources/images/information-main.jpg" alt="">
+            <img src="./resources/images/information-main.jpg" alt="a man
+            reading a book while sitting on a bench in a park">
           </div>
           <div class="text_container flexcolumn">
             <h2>It doesn't hurt to keep practicing</h2>
@@ -293,7 +300,8 @@
               consequat neque. Sed non accumsan urna. Phasellus sed
               consequat ex. Etiam eget magna laoreet, efficitur dolor
               consequat, tristique ligula."</span>
-            <span class="author">Emanuel, Sr Strategist at Hiring.com</span>
+            <span class="author" aria-label="author">Emanuel, Sr Strategist at
+              Hiring.com</span>
           </div>
         </div>
         <div class="secondary_container flexcolumn">
@@ -301,13 +309,13 @@
             <div class="desktop">
               <div class="image_container">
                 <img src="./resources/images/information-orientation.jpg"
-                alt="">
+                alt="a group of people walking on a path seen from above">
               </div>
             </div>
             <div class="mobile">
               <div class="image_container">
                 <img src="./resources/images/information-orientation-mobile.jpg"
-                alt="">
+                alt="a group of people walking on a path seen from above">
               </div>
             </div>
             <div class="text_container flexcolumn">
@@ -333,13 +341,15 @@
             <div class="desktop">
               <div class="image_container">
                 <img src="./resources/images/information-campus.jpg"
-                alt="">
+                alt="a classroom showing a map on the wall and students at
+                a table">
               </div>
             </div>
             <div class="mobile">
               <div class="image_container">
                 <img src="./resources/images/information-campus-mobile.jpg"
-                alt="">
+                alt="a classroom showing a map on the wall and students at
+                a table">
               </div>
             </div>
             <div class="text_container flexcolumn">
@@ -364,13 +374,13 @@
             <div class="desktop">
               <div class="image_container">
                 <img src="./resources/images/information-guest-lecture.jpg"
-                alt="">
+                alt="an old white bearded man wearing a blue beret and glasses">
               </div>
             </div>
             <div class="mobile">
               <div class="image_container">
                 <img src="./resources/images/information-guest-lecture-mobile.jpg"
-                alt="">
+                alt="an old white bearded man wearing a blue beret and glasses">
               </div>
             </div>
             <div class="text_container flexcolumn">
@@ -403,7 +413,8 @@
         <div class="desktop flexrow">
           <div class="course flexcolumn">
             <div class="image_container">
-              <img src="./resources/images/course-software.jpg" alt="">
+              <img src="./resources/images/course-software.jpg" alt="2 computer
+              screens on a desk">
             </div>
             <div class="text_container flexcolumn">
               <h3>Software engineering</h3>
@@ -413,7 +424,9 @@
           </div>
           <div class="course flexcolumn">
             <div class="image_container">
-              <img src="./resources/images/course-computer-art.jpg" alt="">
+              <img src="./resources/images/course-computer-art.jpg" alt="a hand
+              holding a smartphone, a coffee cup and plaste on a wooden table
+              in the background">
             </div>
             <div class="text_container flexcolumn">
               <h3>Computer art</h3>
@@ -424,7 +437,9 @@
           </div>
           <div class="course flexcolumn">
             <div class="image_container">
-              <img src="./resources/images/course-design.jpg" alt="">
+              <img src="./resources/images/course-design.jpg" alt="an old
+              photo camera held by someone in a checkered black and white
+              shirt, a path and grass in the background">
             </div>
             <div class="text_container flexcolumn">
               <h3>Design</h3>
@@ -434,7 +449,8 @@
           </div>
           <div class="course flexcolumn">
             <div class="image_container">
-              <img src="./resources/images/course-data.jpg" alt="">
+              <img src="./resources/images/course-data.jpg" alt="an opened
+              laptop showing some diagrams on a glossy table">
             </div>
             <div class="text_container flexcolumn">
               <h3>Data</h3>
@@ -444,7 +460,9 @@
           </div>
           <div class="course flexcolumn">
             <div class="image_container">
-              <img src="./resources/images/course-business.jpg" alt="">
+              <img src="./resources/images/course-business.jpg" alt="brown
+              and black chessmen and the back of a bench in leather in the
+              background">
             </div>
             <div class="text_container flexcolumn">
               <h3>Business</h3>
@@ -454,7 +472,8 @@
           </div>
           <div class="course flexcolumn">
             <div class="image_container">
-              <img src="./resources/images/course-marketing.jpg" alt="">
+              <img src="./resources/images/course-marketing.jpg" alt="fingers
+              touching a smartwatch weared on the other wrist">
             </div>
             <div class="text_container flexcolumn">
               <h3>Marketing</h3>
@@ -464,13 +483,108 @@
           </div>
         </div>
         <div class="mobile">
-          <ul>
-            <li><h3>Software engineering</h3></li>
-            <li><h3>Computer art</h3></li>
-            <li><h3>Design</h3></li>
-            <li><h3>Data</h3></li>
-            <li><h3>Business</h3></li>
-            <li><h3>Marketing</h3></li>
+          <ul role="presentation">
+            <!-- to just make what you requested, the following lines
+            would just be <li><h3>"course title"</h3></li>. But I tried to
+            add something extra on it, and although I'm not 100% happy with
+            the result, I kept it in here. Maybe you can give me a hint
+            on how to enhance the behaviour of these "hidden" boxes. There
+            is an issue especially in Chrome, as the reaction is on the
+            whole hidden container, not only on the title.-->
+            <li>
+              <div class="more">
+                <h3>Software engineering</h3>
+                <div class="definition-container">
+                  <div class="image_container">
+                    <img src="./resources/images/course-software.jpg" alt="2
+                    computer screens on a desk">
+                  </div>
+                  <div class="text_container flexcolumn">
+                    <span class="info">COURSES</span>
+                    <span>Web Development, Mobile Development, iOT, APIs</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="more">
+                <h3>Computer art</h3>
+                <div class="definition-container">
+                  <div class="image_container">
+                    <img src="./resources/images/course-computer-art.jpg"
+                    alt="a hand holding a smartphone, a coffee cup and plaste
+                    on a wooden table in the background">
+                  </div>
+                  <div class="text_container flexcolumn">
+                    <span class="info">COURSES</span>
+                    <span>Imaging &amp; Design, Web Design, Motion Graphics
+                    &amp; Visual Effects, Computer Animation</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="more">
+                <h3>Design</h3>
+                <div class="definition-container">
+                  <div class="image_container">
+                    <img src="./resources/images/course-design.jpg" alt="an
+                    old photo camera held by someone in a checkered black and
+                    white shirt, a path and grass in the background">
+                  </div>
+                  <div class="text_container flexcolumn">
+                    <span class="info">COURSES</span>
+                    <span>User Experience Design, User Research, Visual Design</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="more">
+                <h3>Data</h3>
+                <div class="definition-container">
+                  <div class="image_container">
+                    <img src="./resources/images/course-data.jpg" alt="an opened laptop showing some diagrams on a glossy table">
+                  </div>
+                  <div class="text_container flexcolumn">
+                    <span class="info">COURSES</span>
+                    <span>Data Science, Big Data, SQL, Data Visualization</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="more">
+                <h3>Business</h3>
+                <div class="definition-container">
+                  <div class="image_container">
+                    <img src="./resources/images/course-business.jpg"
+                    alt="brown and black chessmen and the back of a bench
+                    in leather in the background">
+                  </div>
+                  <div class="text_container flexcolumn">
+                    <span class="info">COURSES</span>
+                    <span>Product Development, Business Development, Startup</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="more">
+                <h3>Marketing</h3>
+                <div class="definition-container">
+                  <div class="image_container">
+                    <img src="./resources/images/course-marketing.jpg"
+                    alt="fingers touching a smartwatch weared on the
+                    other wrist">
+                  </div>
+                  <div class="text_container flexcolumn">
+                    <span class="info">COURSES</span>
+                    <span>Analytics, Content Marketing, Mobile Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
     </div>
@@ -481,7 +595,9 @@
       <div class="flexrow">
         <div class="primary_container">
           <div class="video_container">
-            <video src="./resources/videos/thesis.mp4" autoplay muted loop>
+            <video src="./resources/videos/thesis.mp4" autoplay muted loop
+            alt="a model of a house in form of a cube with lots of windows
+            shown during a whole day with clouds passing by and light changing">
             </video>
           </div>
           <div class="text_container flexcolumn">
@@ -496,7 +612,9 @@
         <div class="secondary_container">
           <div class="flexrow">
             <div class="image_container">
-              <img src="./resources/images/thesis-fisma.jpg" alt="">
+              <img src="./resources/images/thesis-fisma.jpg" alt="a desk seen
+              from above covered with pieces of paper and a smartphone, and
+              a hand writing ideas on the paper">
             </div>
             <div class="text_container flexcolumn">
               <h3>Fisma: Design and Prototype</h3>
@@ -505,7 +623,8 @@
           </div>
           <div class="flexrow">
             <div class="image_container">
-              <img src="./resources/images/thesis-now-and-then.jpg" alt="">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="the
+              empire state building and its surrounding skyscrapers">
             </div>
             <div class="text_container flexcolumn">
               <h3>Now and then</h3>
@@ -522,7 +641,7 @@
         &copy; 2016 Colmar Academy. All rights reserved
       </div>
       <div class="legal">
-        <ul class="flexrow">
+        <ul class="flexrow" role="presentation">
           <li><a href="./index.html">Terms</a></li>
           <li><a href="./index.html">Privacy</a></li>
         </ul>

@@ -234,7 +234,7 @@ header .mobile {
 #information a {
   font-weight: bold;
 }
-/* behaviour while hovering over "read more"*/
+/* behaviour while hovering over "read more" */
 .readmore .word {
   color: #4C5EFF;
   font-weight: bold;
@@ -252,7 +252,7 @@ header .mobile {
   background-color: #ffffff;
   box-shadow: 0 0 4rem 2rem #A1ABFF;
   opacity: 0;
-	transition: top 1.5s ease, opacity 0.2s linear;
+	transition: top 1s ease, opacity 0.1s linear;
 }
 .readmore:hover .definition-container {
   top: 25%;
@@ -320,6 +320,25 @@ header .mobile {
 }
 #courses .mobile {
   display: none;
+}
+
+/* behaviour while hovering over "more" */
+.more h3:hover {
+  color: #FFD12F;
+}
+.more .info {
+  margin-top: 1rem;
+}
+.more .definition-container {
+  height: 0;
+  opacity: 0;
+  background-color: #FFFFFF;
+	transition: opacity 1s linear;
+}
+.more:hover .definition-container {
+  height: auto;
+  opacity: 1;
+  padding: 1rem;
 }
 
 /* media query for tablet */
