@@ -234,6 +234,30 @@ header .mobile {
 #information a {
   font-weight: bold;
 }
+/* behaviour while hovering over "read more"*/
+.readmore .word {
+  color: #4C5EFF;
+  font-weight: bold;
+}
+.readmore .word:hover {
+  color: #FFD12F;
+}
+.readmore .definition-container {
+  position: fixed;
+  z-index: 10;
+  top: -100%;
+  left: 10%;
+  width: 60%;
+  padding: 0.5rem 2rem 2rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 4rem 2rem #A1ABFF;
+  opacity: 0;
+	transition: top 1.5s ease, opacity 0.2s linear;
+}
+.readmore:hover .definition-container {
+  top: 25%;
+  opacity: 1;
+}
 
 /* media query for tablet */
 @media only screen and (max-width: 800px) {
